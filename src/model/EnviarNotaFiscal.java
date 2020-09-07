@@ -18,8 +18,8 @@ public class EnviarNotaFiscal {
 		String mensagem = "Valor: " + venda.getTotal();
 
 		//TODO Coloque seu e-mail@academico.ifpb.edu.br e senha aqui para testar
-		String email = "inathan.moreira@academico.ifpb.edu.br";
-		String senha = "Rebelde10im7";
+		String email = "";
+		String senha = "";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");
