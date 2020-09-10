@@ -16,8 +16,7 @@ public class EnviarNotaFiscal {
 	public boolean enviarNotaFiscalPorEmail(Venda venda) {
 		String assunto = "VendaJava: " + venda.getData();
 		String mensagem = "Valor: " + venda.getTotal();
-
-		//TODO Coloque seu e-mail@academico.ifpb.edu.br e senha aqui para testar
+		
 		String email = "";
 		String senha = "";
 
